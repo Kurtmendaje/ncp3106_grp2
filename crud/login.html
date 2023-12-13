@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Card</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+
+
+
+.form {
+    position: absolute;
+    right: 425px;
+    top:250px;
+}
+
+body{
+    font-family: Poppins;
+    color:#D2B68A;
+}
+
+.card{
+    margin-left: 100vh;
+    position: absolute;
+    right: 0%;
+    border-right:2px solid black ;
+    border-left:2px solid black ;
+}
+
+</style>
+</head>
+
+<body>
+    <div class="card" style="width: 70vh; height: 100vh; background-color: #222D52; ">
+        <h1 class="login" style="position: absolute; top: 150px; left: 180px;">Login</h1>
+        <form class="form" action="menu.html" method="post">
+           <!-- Your form fields go here -->
+            <label for="username" style="position: absolute; left: 15px; top: 10px; ">Username:</label>
+            <input style="position: absolute; left: 110px; top: 10px; border: 2px solid; border-radius: 10px; border: 2px solid #D2B68A;" type="text" name="username" required>
+            <br><br>
+
+            <label for="password" style="position: absolute; left: 15px; top: 70px;">Password:</label>
+            <input style="position: absolute; left: 110px; top: 70px; border: 2px solid; border-radius: 10px; border: 2px solid #D2B68A;" type="password" name="password" required>
+            <br><br>
+
+            <input style="position: absolute; left: 15px; top: 130px; width: 300px; height: 35px; border-radius: 10px; border: 2px solid #D2B68A; background: #222D52; color: #D2B68A;" type="submit" value="Login">
+        </form>
+    </div>
+</body>
+
+</html>
